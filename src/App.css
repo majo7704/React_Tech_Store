@@ -235,7 +235,7 @@ img {
   border: none;
   cursor: pointer;
   margin-right: 0.5rem;
-  transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in !important;
   outline: none;
 }
 
@@ -378,6 +378,7 @@ table th {
 
 /* Navbar */
 .navbar {
+  background-color: var(--primary-color) !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -405,7 +406,8 @@ table th {
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  color: var(--dark-grey) !important;
+  text-decoration: none !important;
 }
 
 .navbar .welcome span {
